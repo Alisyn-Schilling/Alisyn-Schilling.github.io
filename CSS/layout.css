@@ -14,58 +14,55 @@ nav ul li {
   margin-left: 25px;
 }
 h2 {
-    padding: 10px;
-    width: 8rem;
-    margin-left: 10%;
+  padding: 10px;
+  width: 8rem;
+  margin-left: 10%;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px ;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 main {
-    display: grid;
-    grid-template-columns: 300px auto;
+  display: grid;
+  grid-template-columns: 300px auto;
 }
 .about-me {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 60% 20% 20%;
-    padding: 10px;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60% 20% 20%;
+  padding: 10px;
 }
 .bio {
-    grid-column: 1 /span 3;
+  grid-column: 1 / span 3;
 }
 .container {
-    display: grid;
-    grid-template-rows: 100px, auto, 150px;
-    height: 100vh;
-    row-gap: 20px;
+  display: grid;
+  grid-template-rows: 100px, auto, 150px;
+  height: 100vh;
+  row-gap: 20px;
 }
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .projects figure {
-    padding: 10px;
-    display: flex;
-    align-items: flex-start;
-    width: 350px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  width: 350px;
 }
 
 .projects figure img {
-    width: 12rem;
+  width: 12rem;
 }
 .selfie {
-    order: -1;
-    grid-column: 1 /span 3;
+  order: -1;
+  grid-column: 1 / span 3;
 }
 
 .selfie img {
   width: 200px;
 }
-
-

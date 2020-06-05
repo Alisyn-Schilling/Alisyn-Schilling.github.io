@@ -1,32 +1,32 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: #47AE9C; 
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #47ae9c;
 }
 a {
-    color: white;
+  color: white;
 }
 a:hover {
-    color: #5CB8CA;
+  color: #5cb8ca;
 }
 a:active {
-    color: #4B7A5A;
+  color: #4b7a5a;
 }
 header {
-    background-color: #586486;
+  background-color: #586486;
 }
 
 footer {
-    background-color: #586486;
+  background-color: #586486;
 }
 
 .about-me {
-    background-color: #614F6B;
+  background-color: #614f6b;
 }
 
-.projects figure{
-    background-color: #614F6B;
+.projects figure {
+  background-color: #614f6b;
 }
 h2 {
-    background-color: #586486;
+  background-color: #586486;
 }
