@@ -3,15 +3,19 @@ body {
   color: white;
   background-color: #47ae9c;
 }
+
 a {
   color: white;
 }
+
 a:hover {
   color: #5cb8ca;
 }
+
 a:active {
   color: #4b7a5a;
 }
+
 header {
   background-color: #586486;
 }
