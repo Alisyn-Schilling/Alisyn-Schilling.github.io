@@ -39,6 +39,7 @@ main {
   grid-template-rows: 2.5fr 1fr 1fr;
   padding: 10px;
   margin-left: 5px;
+  justify-content: center;
 }
 
 .bio {
@@ -47,7 +48,8 @@ main {
 
 .container {
   display: grid;
-  grid-template-rows: 100px, auto, 150px;
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 1fr;
   height: 100vh;
   row-gap: 20px;
 }
