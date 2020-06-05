@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #47AE9C; 
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #5CB8CA;
+}
+a:active {
+    color: #4B7A5A;
+}
+header {
+    background-color: #586486;
+}
+
+footer {
+    background-color: #586486;
+}
+
+.about-me {
+    background-color: #614F6B;
+}
+
+.projects figure{
+    background-color: #614F6B;
+}
+h2 {
+    background-color: #586486;
+}

@@ -1,14 +1,199 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Document</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>
+          Alisyn's Portfolio
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div>
+          <h2 id="about-me">About Me</h2>
+          <section class="about-me about-me-items">
+            <div class="bio about-me-items">
+              <p>
+                I'm a Full Stack Java student who is always looking into new
+                tech. In my free time I am usually either, messing around with
+                more tech related stuff, helping out in the LGBT community, or
+                playing video games.
+              </p>
+            </div>
+            <figure class="selfie about-me-items">
+              <img
+                src="./images/Alisyn-Photo.jpg"
+                alt="Photo of Alisyn"
+                class="about-me-items"
+              />
+              <address class="about-me-items">
+                <ul>
+                  <li>Alisyn Schilling</li>
+                  <li>Phone: 850.803.6298</li>
+                  <li>
+                    Email:
+                    <a href="mailto:aeschilling.87@gmail.com"
+                      >aeschilling.87@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </figure>
+            <div class="professional-links about-me-items">
+              <h3>Links</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/alisyn-schilling-528a351ab/"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/Alisyn-Schilling">GitHub</a>
+                </li>
+              </ul>
+            </div>
+            <div class="skills about-me-items">
+              <h3>Skills</h3>
+              <ul>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div>
+          <h2 id="projects">Projects</h2>
+          <section class="projects">
+            <figure class="virtual-pet">
+              <img
+                src="./images/Virtual-Pet-Screenshot.PNG"
+                alt="Virtual Pet Application Screenshot"
+                class="project-item"
+              />
+              <figcaption class="project-item">
+                <h3>
+                  <a
+                    href="https://github.com/2020-Summer-Cohort/virtual-pet-java-Alisyn-Schilling"
+                    >Virtual Pet</a
+                  >
+                </h3>
+                <p>
+                  Skills used:
+                </p>
+                <ul>
+                  <li>Java</li>
+                </ul>
+              </figcaption>
+            </figure>
+            <figure class="virtual-pet-shelter">
+              <img
+                src="./images/Virtual-Pet-Shelter-Screenshot.PNG"
+                alt="Virtual Pet Shelter Application Screenshot"
+                class="project-item"
+              />
+              <figcaption class="project-item">
+                <h3>
+                  <a
+                    href="https://github.com/2020-Summer-Cohort/virtual-pet-shelter-java-Alisyn-Schilling"
+                    >Virtual Pet Shelter</a
+                  >
+                </h3>
+                <p>
+                  Skills used:
+                </p>
+                <ul>
+                  <li>Java</li>
+                </ul>
+              </figcaption>
+            </figure>
+            <figure class="virtual-pets-amok">
+              <img
+                src="./images/Virtual-Pets-Amok-Screenshot.PNG"
+                alt="Virtual Pets Amok Application Screenshot"
+                class="project-item"
+              />
+              <figcaption class="project-item">
+                <h3>
+                  <a
+                    href="https://github.com/2020-Summer-Cohort/virtual-pets-amok-java-Alisyn-Schilling"
+                    >Virtual Pets Amok</a
+                  >
+                </h3>
+                <p>
+                  Skills used:
+                </p>
+                <ul>
+                  <li>Java</li>
+                </ul>
+              </figcaption>
+            </figure>
+            <figure class="Lumberjack">
+              <img
+                src="./images/Lumberjack-Screenshot.PNG"
+                alt="Lumberjack Application Screenshot"
+                class="project-item"
+              />
+              <figcaption class="project-item">
+                <h3>
+                  <a href="https://github.com/The-Valley-Discord/Lumberjack"
+                    >Lumberjack</a
+                  >
+                </h3>
+                <p>
+                  Skills used:
+                </p>
+                <ul>
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>Discord API</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <address>
+          <ul>
+            <li>Alisyn Schilling</li>
+            <li>Phone: 850.803.6298</li>
+            <li>
+              Email:
+              <a href="mailto:aeschilling.87@gmail.com"
+                >aeschilling.87@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <p>Last Updated June 2020</p>
+        <nav>
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>

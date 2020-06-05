@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  margin-left: 25px;
+}
+h2 {
+    padding: 10px;
+    width: 8rem;
+    margin-left: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px ;
+}
+main {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60% 20% 20%;
+    padding: 10px;
+
+}
+.bio {
+    grid-column: 1 /span 3;
+}
+.container {
+    display: grid;
+    grid-template-rows: 100px, auto, 150px;
+    height: 100vh;
+    row-gap: 20px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects figure {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    width: 350px;
+}
+
+.projects figure img {
+    width: 12rem;
+}
+.selfie {
+    order: -1;
+    grid-column: 1 /span 3;
+}
+
+.selfie img {
+  width: 200px;
+}
+
+
