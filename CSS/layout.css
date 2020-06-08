@@ -13,15 +13,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-}
-
-nav ul li {
-  margin-left: 25px;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
@@ -33,13 +24,30 @@ main {
   grid-template-columns: 300px auto;
 }
 
+@media only screen and (max-width: 750px) {
+  main {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: auto auto;
+    margin: 0px auto;
+  }
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
 .about-me {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2.5fr 1fr 1fr;
   padding: 10px;
   margin-left: 5px;
-  justify-content: center;
 }
 
 .bio {

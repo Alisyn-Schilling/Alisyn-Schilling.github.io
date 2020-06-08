@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: white;
-  background-color: #696E77;
+  background-color: #696e77;
 }
 
 a {
@@ -9,33 +9,35 @@ a {
 }
 
 a:hover {
-  color: #7B91A3;
+  color: #7b91a3;
 }
 
 a:active {
-  color: #48616E;
-}
-
-header {
-  background-color: #20323D;
+  color: #48616e;
 }
 
 footer {
-  background-color: #20323D;
+  background-color: #20323d;
+}
+
+header {
+  background-color: #20323d;
+}
+
+h2 {
+  background-color: #20323d;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
 }
 
 .about-me {
-  background-color: #45434F;
+  background-color: #45434f;
 }
 
 .projects figure {
-  background-color: #45434F;
-}
-h2 {
-  background-color: #20323D;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
+  background-color: #45434f;
 }
