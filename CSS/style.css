@@ -1,31 +1,40 @@
+:root {
+  --rich-black-fogra-39: #040f0f;
+  --forest-green-web: #248232;
+  --green-pantone: #2ba84a;
+  --outer-space-crayola: #2d3a3a;
+  --baby-powder: #fcfffc;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: white;
-  background-color: #696e77;
+  color: var(--baby-powder);
+  background-color: var(--outer-space-crayola);
 }
 
 a {
-  color: white;
+  color: var(--outer-space-crayola);
 }
 
 a:hover {
-  color: #7b91a3;
+  color: var(--outer-space-crayola);
 }
 
 a:active {
-  color: #48616e;
+  color: var(--green-pantone);
 }
 
 footer {
-  background-color: #20323d;
+  background-color: var(--green-pantone);
 }
 
 header {
-  background-color: #20323d;
+  background-color: var(--green-pantone);
 }
 
 h2 {
-  background-color: #20323d;
+  background-color: var(--outer-space-crayola);
+  color: var(--baby-powder);
 }
 
 ul {
@@ -35,9 +44,9 @@ ul {
 }
 
 .about-me {
-  background-color: #45434f;
+  background-color: var(--green-pantone);
 }
 
 .projects figure {
-  background-color: #45434f;
+  background-color: var(--green-pantone);
 }

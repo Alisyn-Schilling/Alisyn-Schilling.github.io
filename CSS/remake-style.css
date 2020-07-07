@@ -1,0 +1,30 @@
+:root {
+  --rich-black-fogra-39: #040f0f;
+  --forest-green-web: #248232;
+  --green-pantone: #2ba84a;
+  --outer-space-crayola: #2d3a3a;
+  --baby-powder: #fcfffc;
+}
+body {
+  background-color: var(--outer-space-crayola);
+  color: var(--baby-powder);
+  font-family: "Open Sans", sans-serif;
+}
+header,
+footer {
+  background-color: var(--forest-green-web);
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+}
+
+#about-me-container,
+#projects-container {
+  border-radius: 25px;
+  background-color: var(--rich-black-fogra-39);
+  transform: scale(0);
+  transition: 0.75s;
+}
+
+h1 {
+  font-size: 40px;
+}
