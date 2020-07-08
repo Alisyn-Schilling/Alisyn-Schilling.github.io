@@ -6,6 +6,12 @@
   --baby-powder: #fcfffc;
 }
 body {
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
   background-color: var(--outer-space-crayola);
   color: var(--baby-powder);
   font-family: "Open Sans", sans-serif;
@@ -17,12 +23,39 @@ footer {
   font-size: 20px;
 }
 
-#about-me-container,
-#projects-container {
+#about-me-container {
   border-radius: 25px;
   background-color: var(--rich-black-fogra-39);
-  transform: scale(0);
+  /* transform: scale(0); */
   transition: 0.75s;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--baby-powder);
+}
+#projects-container {
+  /* transform: scale(0); */
+  transition: 0.75s;
+}
+#name {
+  transition: 0.75s;
+  opacity: 100;
+}
+.project {
+  background-color: var(--rich-black-fogra-39);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--baby-powder);
+  padding: 5px;
+  transition-duration: 0.1s;
+  font-size: 14px;
+}
+.project:hover {
+  transform: scale(1.1);
+}
+.project-info {
+  color: var(--baby-powder);
+  text-decoration: none;
 }
 
 h1 {

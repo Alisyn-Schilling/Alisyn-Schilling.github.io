@@ -47,10 +47,9 @@ main {
   align-items: center;
 }
 
-#about-me-container,
-#projects-container {
-  /* visibility: hidden; */
-  position: fixed;
+#about-me-container {
+  /* position: fixed; */
+  display: none;
   height: 500px;
   width: 70%;
   max-width: 900px;
@@ -58,12 +57,35 @@ main {
   justify-content: center;
   padding: 10px;
 }
+#projects-container {
+  /* position: fixed; */
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project-image {
+  max-width: 200px;
+  max-height: 150px;
+}
 .selfie {
   width: 200px;
   border-radius: 20px;
+  grid-row: 1 / 3;
 }
-#about-me-content,
-#projects {
+#about-me-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
@@ -72,4 +94,13 @@ main {
 .bio {
   grid-column: 2 /4;
   margin-top: 40px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60px;
+}
+.project-info {
+  width: 230px;
 }
