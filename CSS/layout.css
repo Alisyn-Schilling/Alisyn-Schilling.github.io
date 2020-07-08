@@ -167,6 +167,6 @@ nav div:hover {
 
 @media only screen and (max-width: 1087px) {
   body {
-    height: 1300px;
+    min-height: 1300px;
   }
 }
