@@ -7,46 +7,49 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: var(--baby-powder);
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
   background-color: var(--outer-space-crayola);
+  color: var(--baby-powder);
+  font-family: "Open Sans", sans-serif;
 }
 
-a {
-  color: var(--outer-space-crayola);
+h1 {
+  font-size: 40px;
 }
 
-a:hover {
-  color: var(--outer-space-crayola);
-}
-
-a:active {
-  color: var(--green-pantone);
-}
-
+header,
 footer {
-  background-color: var(--green-pantone);
+  background-color: var(--forest-green-web);
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
 }
 
-header {
-  background-color: var(--green-pantone);
+#about-me-container {
+  border-radius: 25px;
+  background-color: var(--rich-black-fogra-39);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--baby-powder);
 }
 
-h2 {
-  background-color: var(--outer-space-crayola);
+.project {
+  background-color: var(--rich-black-fogra-39);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--baby-powder);
+  transition-duration: 0.1s;
+  font-size: 14px;
+}
+.project:hover {
+  transform: scale(1.1);
+}
+.project-info {
   color: var(--baby-powder);
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-}
-
-.about-me {
-  background-color: var(--green-pantone);
-}
-
-.projects figure {
-  background-color: var(--green-pantone);
+  text-decoration: none;
 }
