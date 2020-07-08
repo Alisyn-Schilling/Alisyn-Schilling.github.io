@@ -1,6 +1,6 @@
 body {
   display: grid;
-  height: 99.5vh;
+  min-height: 99.5vh;
   grid-template-rows: 75px auto 75px;
   margin: 0;
   overflow-x: hidden;
