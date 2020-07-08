@@ -44,6 +44,14 @@ footer {
   border-style: solid;
   border-width: 2px;
   border-color: var(--baby-powder);
+  transition-duration: 0.75s;
+}
+#name {
+  transition-duration: 0.75s;
+}
+
+#projects-container {
+  transition-duration: 0.75s;
 }
 
 .links {
@@ -75,4 +83,7 @@ footer {
 .project-info {
   color: var(--baby-powder);
   text-decoration: none;
+}
+#project-title {
+  text-align: center;
 }

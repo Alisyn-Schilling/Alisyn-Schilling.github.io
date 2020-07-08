@@ -8,31 +8,32 @@ const projectsButton = document.getElementById("projects-button");
 const projectsContainer = document.getElementById("projects-container");
 
 aboutMeButton.addEventListener("click", () => {
-  if (aboutMeContainer.style.display === "block") {
-    homeName.style.display = "block";
-    aboutMeContainer.style.display = "none";
-    projectsContainer.style.display = "none";
+  if (aboutMeContainer.style.opacity === "100") {
+    homeName.style.opacity = "100";
+    aboutMeContainer.style.opacity = "0";
+    projectsContainer.style.opacity = "0";
   } else {
-    homeName.style.display = "none";
-    aboutMeContainer.style.display = "block";
-    projectsContainer.style.display = "none";
+    homeName.style.opacity = "0";
+    aboutMeContainer.style.opacity = "100";
+    aboutMeContainer.style.zIndex = "1";
+    projectsContainer.style.opacity = "0";
   }
 });
 
 homeButton.addEventListener("click", () => {
-  homeName.style.display = "block";
-  aboutMeContainer.style.display = "none";
-  projectsContainer.style.display = "none";
+  homeName.style.opacity = "100";
+  aboutMeContainer.style.opacity = "0";
+  projectsContainer.style.opacity = "0";
 });
 
 projectsButton.addEventListener("click", () => {
-  if (projectsContainer.style.display === "flex") {
-    homeName.style.display = "block";
-    aboutMeContainer.style.display = "none";
-    projectsContainer.style.display = "none";
+  if (projectsContainer.style.opacity === "100") {
+    homeName.style.opacity = "100";
+    aboutMeContainer.style.opacity = "0";
+    projectsContainer.style.opacity = "0";
   } else {
-    homeName.style.display = "none";
-    aboutMeContainer.style.display = "none";
-    projectsContainer.style.display = "flex";
+    homeName.style.opacity = "0";
+    aboutMeContainer.style.opacity = "0";
+    projectsContainer.style.opacity = "100";
   }
 });
