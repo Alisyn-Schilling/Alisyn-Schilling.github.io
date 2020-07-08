@@ -37,6 +37,20 @@ footer {
   border-color: var(--baby-powder);
 }
 
+.links {
+  list-style: none;
+  padding-left: 20px;
+}
+.links a {
+  color: var(--baby-powder);
+}
+.links a:hover {
+  color: var(--green-pantone);
+}
+.links a:active {
+  color: var(--forest-green-web);
+}
+
 .project {
   background-color: var(--rich-black-fogra-39);
   border-radius: 25px;
