@@ -2,6 +2,7 @@ body {
   display: grid;
   min-height: 850px;
   height: 99.5vh;
+  width: 100%;
   grid-template-rows: 75px auto 75px;
   margin: 0;
   overflow-x: hidden;
@@ -21,12 +22,13 @@ footer ul {
   list-style: none;
   display: flex;
   max-width: 500px;
-  width: 100%;
+  width: 90%;
   justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
 }
 footer ul li {
-  padding: 0px 10px;
+  margin: 0px 10px;
 }
 
 footer span {
@@ -67,7 +69,6 @@ nav div:hover {
 }
 
 #about-me-container {
-  /* display: none; */
   position: absolute;
   height: 500px;
   width: 70%;
@@ -185,13 +186,14 @@ nav div:hover {
 @media only screen and (max-width: 500px) {
   .project {
     flex-direction: column;
-    width: 250px;
+    width: 225px;
+    padding: 5px 15px;
   }
   .stretch {
     min-height: 1950px;
   }
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 531px) {
   body {
     grid-template-rows: 75px auto 150px;
   }
