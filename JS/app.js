@@ -14,6 +14,7 @@ aboutMeButton.addEventListener("click", () => {
     aboutMeContainer.style.opacity = "0";
     projectsContainer.style.opacity = "0";
     body.classList.remove("stretch");
+    body.classList.remove("about-me-stretch");
     projectsContainer.style.pointerEvents = "none";
     aboutMeContainer.style.pointerEvents = "none";
   } else {
@@ -22,6 +23,7 @@ aboutMeButton.addEventListener("click", () => {
     aboutMeContainer.style.zIndex = "1";
     projectsContainer.style.opacity = "0";
     body.classList.remove("stretch");
+    body.classList.add("about-me-stretch");
     projectsContainer.style.pointerEvents = "none";
     aboutMeContainer.style.pointerEvents = "auto";
   }
@@ -32,6 +34,7 @@ homeButton.addEventListener("click", () => {
   aboutMeContainer.style.opacity = "0";
   projectsContainer.style.opacity = "0";
   body.classList.remove("stretch");
+  body.classList.remove("about-me-stretch");
   aboutMeContainer.style.pointerEvents = "none";
   projectsContainer.style.pointerEvents = "none";
 });
@@ -42,6 +45,7 @@ projectsButton.addEventListener("click", () => {
     aboutMeContainer.style.opacity = "0";
     projectsContainer.style.opacity = "0";
     body.classList.remove("stretch");
+    body.classList.remove("about-me-stretch");
     projectsContainer.style.pointerEvents = "none";
     aboutMeContainer.style.pointerEvents = "none";
   } else {
@@ -49,6 +53,7 @@ projectsButton.addEventListener("click", () => {
     aboutMeContainer.style.opacity = "0";
     projectsContainer.style.opacity = "100";
     body.classList.add("stretch");
+    body.classList.remove("about-me-stretch");
     projectsContainer.style.pointerEvents = "auto";
     aboutMeContainer.style.pointerEvents = "none";
   }

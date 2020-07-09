@@ -1,7 +1,6 @@
 body {
   display: grid;
-  min-height: 850px;
-  height: 99.5vh;
+  min-height: 99.5vh;
   width: 100%;
   grid-template-rows: 75px auto 75px;
   margin: 0;
@@ -113,6 +112,11 @@ nav div:hover {
   justify-content: center;
 }
 
+.about-me-stretch {
+  min-height: 850px;
+  transition: min-height 0.75s;
+}
+
 .bio {
   grid-column: 2 /4;
   margin-top: 40px;
@@ -161,9 +165,6 @@ nav div:hover {
 }
 
 @media only screen and (max-width: 650px) {
-  body {
-    min-height: 1050px;
-  }
   #about-me-container {
     height: 750px;
   }
@@ -174,9 +175,17 @@ nav div:hover {
     grid-row: 3;
     grid-column: 1 / 3;
   }
+  .about-me-stretch {
+    min-height: 1050px;
+  }
   .selfie {
     grid-column: 1/3;
     margin: auto;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .stretch {
+    min-height: 850px;
   }
 }
 
