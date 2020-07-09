@@ -74,6 +74,7 @@ nav div:hover {
   z-index: 1;
   opacity: 0;
   pointer-events: none;
+  min-width: 300px;
 }
 
 #about-me-content {
@@ -152,6 +153,9 @@ nav div:hover {
 }
 
 @media only screen and (max-width: 650px) {
+  body {
+    min-height: 1050px;
+  }
   #about-me-container {
     height: 750px;
   }
