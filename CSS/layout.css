@@ -20,9 +20,13 @@ footer {
 footer ul {
   list-style: none;
   display: flex;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+footer ul li {
+  padding: 0px 10px;
 }
 
 footer span {
@@ -37,6 +41,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 nav {
@@ -93,7 +98,6 @@ nav div:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   margin: 10px 0;
   z-index: 2;
   opacity: 0;
@@ -149,6 +153,7 @@ nav div:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    height: auto;
   }
 }
 
@@ -175,5 +180,19 @@ nav div:hover {
 @media only screen and (max-width: 1087px) {
   .stretch {
     min-height: 1300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .project {
+    flex-direction: column;
+    width: 250px;
+  }
+  .stretch {
+    min-height: 1950px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  body {
+    grid-template-rows: 75px auto 150px;
   }
 }
