@@ -26,6 +26,9 @@ body {
   color: var(--baby-powder);
   font-family: "Open Sans", sans-serif;
 }
+nav div {
+  cursor: pointer;
+}
 
 h1 {
   font-size: 40px;
