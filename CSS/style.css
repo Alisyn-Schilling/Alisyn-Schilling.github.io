@@ -54,7 +54,7 @@ footer {
 }
 
 #projects-container {
-  transition-duration: 0.75s;
+  transition: opacity 0.75s;
 }
 #project-title {
   text-align: center;
