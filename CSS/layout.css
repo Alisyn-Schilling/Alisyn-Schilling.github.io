@@ -107,7 +107,6 @@ nav div:hover {
   opacity: 0;
   pointer-events: none;
   transform: scale(0);
-  
 }
 
 #projects {
@@ -170,7 +169,7 @@ nav div:hover {
 
 @media only screen and (max-width: 650px) {
   #about-me-container {
-    height: 750px;
+    height: 800px;
   }
   #about-me-content {
     grid-template-columns: 1fr 1fr;
@@ -195,7 +194,7 @@ nav div:hover {
 
 @media only screen and (max-width: 1087px) {
   .stretch {
-    min-height: 1300px;
+    min-height: 1475px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -205,7 +204,7 @@ nav div:hover {
     padding: 5px 15px;
   }
   .stretch {
-    min-height: 1950px;
+    min-height: 2275px;
   }
 }
 @media only screen and (max-width: 531px) {
